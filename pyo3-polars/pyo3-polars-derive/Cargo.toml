@@ -20,7 +20,7 @@ path = "tests/run.rs"
 arrow = { workspace = true }
 polars-core = { workspace = true, features = ["allow_unused"] }
 polars-ffi = { workspace = true }
-polars-plan = { workspace = true, features = ["allow_unused"] }
+polars-plan = { workspace = true, features = ["allow_unused", "ffi_plugin"] }
 proc-macro2 = "1.0"
 quote = "1.0"
 syn = { version = "2", features = ["full", "extra-traits"] }
