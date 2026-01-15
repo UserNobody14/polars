@@ -491,6 +491,8 @@ bench = [
   "lazy",
 ]
 
+ffi_plugin = ["polars-lazy/ffi_plugin", "polars-plan/ffi_plugin"]
+
 # All features except python
 full = ["docs-selection", "performant", "fmt"]
 allow_unused = ["polars-lazy?/allow_unused", "polars-core/allow_unused", "polars-time?/allow_unused"]
