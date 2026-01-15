@@ -491,7 +491,7 @@ bench = [
   "lazy",
 ]
 
-ffi_plugin = ["polars-lazy/ffi_plugin", "polars-plan/ffi_plugin"]
+ffi_plugin = ["polars-lazy?/ffi_plugin", "polars-plan?/ffi_plugin", "polars-expr/ffi_plugin"]
 
 # All features except python
 full = ["docs-selection", "performant", "fmt"]
